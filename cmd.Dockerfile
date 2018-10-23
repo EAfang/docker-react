@@ -18,3 +18,9 @@
     npm install n -g
     n stable
     n latest
+
+# GIT VS Code Setup
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=360000'
+
+git config --global credential.helper wincred
